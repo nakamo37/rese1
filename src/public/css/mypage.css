@@ -1,0 +1,26 @@
+.text-head {
+  font-weight: bold;
+}
+
+.content-inner {
+  width: 100vh;
+  margin: 0 20px;
+  display: flex;
+}
+
+.content-confirm_inner {
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+  background-color: #6197be;
+  border-radius: 5px;
+  width: 450px;
+}
+
+.confirm {
+  display: flex;
+} 
+
+.confirm-inner {
+  padding-left: 50px;
+}
