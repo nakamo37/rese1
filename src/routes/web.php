@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LikeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,5 @@ Route::post('/', [ShopController::class, 'search']);
 Route::get('/detail', [ShopController::class, 'detail']);
 Route::post('/detail', [ContactController::class, 'store']);
 Route::get('/mypage', [ContactController::class, 'mypage']);
+Route::post('/like/{shopId}', [LikeController::class, 'store']);
+Route::post('/unlike/{shopId}', [LikeController::class, 'destroy']);

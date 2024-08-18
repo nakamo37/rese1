@@ -74,3 +74,8 @@
   border-radius: 5px;
   text-decoration: none;
 }
+
+.like-btn {
+  text-align: right;
+  margin-left: 100px;
+}

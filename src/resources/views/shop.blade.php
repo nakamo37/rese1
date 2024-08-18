@@ -48,6 +48,7 @@
       <h3 class="card-ttl">{{$shop->name}}</h3>
       <p class="card-tag">#{{$shop->area}} #{{$shop->genre}}</p>
       <a class="card-detail" href="/detail/?id={{$shop->id}}">詳しく見る</a>
+      <button class="like-btn" onclick="like({{$shop->id}})">♡</button>
     </div>
   </div>
   @endforeach
